@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: ESS
+  m_EditorClassIdentifier: 
+  characterName: Elder
+  actionID: 0
+  cameraPos: {x: 0.0318, y: 0.1292, z: 0.1228}
+  cameraRot: {x: 10.000004, y: 205, z: 0}
+  soundToPlay: {fileID: 11400000, guid: 36a2f67ed47f3b54c987feed5b77a3e4, type: 2}
+  prompts:
+  - The statue? Don't be silly, all children know of Conehead the Pointy!
+  - Don't worry, I'll tell it all the same.
+  - You know not to leave the village, little one, because it is safe here. But why
+    do you think the monsters stay out?
+  - It was not always this way. Once, this land used to be many different lands.
+    It was a dangerous time.
+  - Our people were split amongst the islands, too afraid to unite for there were
+    terrible beasts who patrolled the skies.
+  - One brave little cone swore to bring an end to their tyranny. She battled the
+    demons and walked the treacherous sky.
+  - She came upon a shining tower, a gift of the great cone. With its power she joined
+    our land and people, trapping the demons in holy ice.
+  - And that is how our village came to be. She lives on in ice, as a reminder of
+    our resolve to the monsters.
+  responses: []
+  nextPrompts:
+  - {fileID: 11400000, guid: 4805e6787f24d5e42bd920531e3305f6, type: 2}

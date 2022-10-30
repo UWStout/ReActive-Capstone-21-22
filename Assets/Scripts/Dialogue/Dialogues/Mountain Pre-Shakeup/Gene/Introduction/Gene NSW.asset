@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Gene NSW
+  m_EditorClassIdentifier: 
+  characterName: Gene
+  actionID: 1
+  cameraPos: {x: 3.512, y: 0.159, z: 1.921}
+  cameraRot: {x: 335.037, y: 242.93399, z: -0.0000018835032}
+  prompts:
+  - Seems you don't get out much.
+  - You're standin' at the base of Mount Menaechmus!
+  - There's a small town down yonder.
+  - Mayhaps you could find ya a mechanic.
+  - Bet you're lookin' for a way to get off this rock, eh?
+  - Was like you once.
+  - Ma ship crashed round here a long time ago.
+  - Spent ages lookin to find 'n fix it.
+  - Never did find it.
+  responses: []
+  nextPrompts: []

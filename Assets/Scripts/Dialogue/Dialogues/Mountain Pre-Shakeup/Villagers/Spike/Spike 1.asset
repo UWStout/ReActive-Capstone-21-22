@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Spike 1
+  m_EditorClassIdentifier: 
+  characterName: Spike
+  actionID: 0
+  cameraPos: {x: -0.081, y: 0.077, z: 0.184}
+  cameraRot: {x: 12.282103, y: 149.6034, z: 2.3563254}
+  soundToPlay: {fileID: 11400000, guid: 36a2f67ed47f3b54c987feed5b77a3e4, type: 2}
+  prompts:
+  - Oh ho, A visitor! Quite rare that is. And espeically not one so... overcomplicated.
+  - You know, the last fellow to pass through here was not so different from yourself.
+    What was his name again? Hmm..
+  responses:
+  - Jean?
+  - Beam?
+  - Gene?
+  nextPrompts:
+  - {fileID: 11400000, guid: 804e0962aab9b76499c601a502af38d0, type: 2}
+  - {fileID: 11400000, guid: 804e0962aab9b76499c601a502af38d0, type: 2}
+  - {fileID: 11400000, guid: 804e0962aab9b76499c601a502af38d0, type: 2}

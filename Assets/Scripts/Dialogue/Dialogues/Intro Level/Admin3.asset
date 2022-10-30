@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Admin3
+  m_EditorClassIdentifier: 
+  characterName: Admin
+  actionID: 0
+  cameraPos: {x: -0.1559, y: 0, z: -0.15079996}
+  cameraRot: {x: 0, y: 358.44254, z: 0}
+  soundToPlay: {fileID: 11400000, guid: 7a8b3aba5ccda0b4db726920635075ca, type: 2}
+  prompts:
+  - Ahead of me is a gap that must be crossed with a dash. Perform this maneuver
+    using [shift/X].
+  - You can use this at any time - even in the air. However, there is a short recovery
+    time before you can use it again.
+  - If you fall a large enough distance, you will likely be destroyed.
+  - Behind me is a constructor pylon. Walk near it to upload your data to it.
+  - If you are destroyed, you will be reconstructed at the last pylon you accessed.
+  - If you are destroyed without accessing the pylon, a service member will have
+    to go down and recycle you manually.
+  - The cost of any severe damage may be deducted from your non-existent salary.
+  responses: []
+  nextPrompts: []

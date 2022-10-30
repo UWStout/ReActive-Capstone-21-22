@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Gene 2-4
+  m_EditorClassIdentifier: 
+  characterName: Gene
+  actionID: 0
+  cameraPos: {x: 0.009, y: -0.878, z: -2.197}
+  cameraRot: {x: 356.29105, y: 246.09616, z: 359.14532}
+  soundToPlay: {fileID: 11400000, guid: 63449bf379e7e444c82ed7e22772bacb, type: 2}
+  prompts:
+  - I remember seeing one of the villagers scurrying off with one towards that silver
+    tower up the mountain.
+  - That was awhile ago, and if I recall, this place was pretty different back then.
+  responses: []
+  nextPrompts:
+  - {fileID: 11400000, guid: 4b29e32d80a52f84c95840051f76a411, type: 2}

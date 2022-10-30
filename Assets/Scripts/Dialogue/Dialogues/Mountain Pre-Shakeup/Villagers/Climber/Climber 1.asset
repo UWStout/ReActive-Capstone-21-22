@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Climber 1
+  m_EditorClassIdentifier: 
+  characterName: Climber
+  actionID: 0
+  cameraPos: {x: 0.0868, y: 0.0113, z: 0.1198}
+  cameraRot: {x: 0, y: 208.72249, z: 0}
+  soundToPlay: {fileID: 11400000, guid: 36a2f67ed47f3b54c987feed5b77a3e4, type: 2}
+  prompts:
+  - That climb sure is exhausting...
+  - You make it look so easy with those legs.
+  - I don't suppose you know where I can get myself a pair?
+  responses:
+  - I have some more back at home.
+  - They're not as great as you think.
+  nextPrompts:
+  - {fileID: 11400000, guid: 75e140699d621b7498f3722e4f51c818, type: 2}
+  - {fileID: 11400000, guid: 92f601307144b4e42bfa2cc8bebecd59, type: 2}

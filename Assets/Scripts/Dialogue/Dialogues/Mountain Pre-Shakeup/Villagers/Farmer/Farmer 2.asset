@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Farmer 2
+  m_EditorClassIdentifier: 
+  characterName: Pokey
+  actionID: 0
+  cameraPos: {x: 0.025, y: 0.01259998, z: 0.1164}
+  cameraRot: {x: 0, y: -151.278, z: 0}
+  soundToPlay: {fileID: 11400000, guid: 36a2f67ed47f3b54c987feed5b77a3e4, type: 2}
+  prompts:
+  - You there behind me! You saw it too, didn't you?
+  - Them carrots thinks they can pull one over on old Pokey, huh?
+  - Jokes on them! I haven't taken my eyes off these sprouts since they was seedlings...
+  - I'm gonna catch one of 'em trying to make a dash for it. Just watch 'em try!
+  responses: []
+  nextPrompts: []

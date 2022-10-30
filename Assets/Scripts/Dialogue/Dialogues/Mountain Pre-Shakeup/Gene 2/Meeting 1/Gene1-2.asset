@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Gene1-2
+  m_EditorClassIdentifier: 
+  characterName: Gene
+  actionID: 0
+  cameraPos: {x: 0.0116, y: 0.0609, z: -0.0181}
+  cameraRot: {x: 35.537163, y: 258.30984, z: 358.43887}
+  soundToPlay: {fileID: 11400000, guid: 63449bf379e7e444c82ed7e22772bacb, type: 2}
+  prompts:
+  - In a matter of speaking...
+  responses: []
+  nextPrompts:
+  - {fileID: 11400000, guid: da4b999c1c760c2408db02b6e7f2cb5b, type: 2}

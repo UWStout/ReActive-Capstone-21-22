@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Test1
+  m_EditorClassIdentifier: 
+  characterName: Test Bot
+  eventID: 0
+  cameraPos: {x: 0, y: 0.1, z: -0.2}
+  cameraRot: {x: 30, y: 0, z: 0}
+  prompts:
+  - Hi, this is a sample dialogue.
+  - I'm used for testing.
+  - Am I being cooperative?
+  responses:
+  - Yes
+  - No
+  - Maybe
+  nextPrompts:
+  - {fileID: 11400000, guid: dd17697d401c91a42acb0c88da0d0000, type: 2}
+  - {fileID: 11400000, guid: 09aaa9eab95c50945b46bf14d2cde664, type: 2}
+  - {fileID: 11400000, guid: 54da49129d909a843a5dc9c396ef2804, type: 2}

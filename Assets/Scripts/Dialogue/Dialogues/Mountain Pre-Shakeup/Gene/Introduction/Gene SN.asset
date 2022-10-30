@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Gene SN
+  m_EditorClassIdentifier: 
+  characterName: Gene
+  eventID: 1
+  cameraPos: {x: -0.2, y: 0.2, z: 0.2}
+  cameraRot: {x: 30, y: 120.00001, z: 0}
+  prompts:
+  - The village folk 'round these parts call me Eugenius Eudoxia.
+  - ...but please, call me Gene.
+  responses:
+  - Where am I?
+  - Thank you
+  nextPrompts:
+  - {fileID: 11400000, guid: b7cf0c2174194e1428378d53ea2ddd07, type: 2}
+  - {fileID: 11400000, guid: 289787b80f09e764e9507a8e7088b137, type: 2}

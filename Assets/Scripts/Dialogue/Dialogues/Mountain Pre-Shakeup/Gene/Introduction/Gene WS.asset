@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Gene WS
+  m_EditorClassIdentifier: 
+  characterName: ????
+  eventID: 0
+  cameraPos: {x: -0.2, y: 0.2, z: 0.2}
+  cameraRot: {x: 30, y: 120.00001, z: 0}
+  prompts:
+  - "Eh? The Split? What you knock somethin\u2019 loose in that crash boy?"
+  - The destruction of Rinnamia.
+  - "Yeah whole thing was torn apart, all that's left are these floating piles o\u2019
+    rubble."
+  - Not that many remember that there was once more than that.
+  - "Specially this place. S'pose that\u2019s a blessin."
+  responses:
+  - Who are you?
+  - Thank you
+  nextPrompts:
+  - {fileID: 11400000, guid: bf9ba5a1dcc07db44b902064c4534b1f, type: 2}
+  - {fileID: 11400000, guid: fc24dc57227b92e4d8905b5e88d72270, type: 2}

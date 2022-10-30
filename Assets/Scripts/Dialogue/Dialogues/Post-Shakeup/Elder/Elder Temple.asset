@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Elder Temple
+  m_EditorClassIdentifier: 
+  characterName: Elder
+  actionID: 0
+  cameraPos: {x: -3.438, y: 1.859, z: -1.858}
+  cameraRot: {x: 15.000006, y: 16.137596, z: 0.0000013258372}
+  soundToPlay: {fileID: 11400000, guid: 36a2f67ed47f3b54c987feed5b77a3e4, type: 2}
+  prompts:
+  - If only I could make my way up to the temple, there might be some manuscripts
+    that would prove useful.
+  - Sadly with my old age, I don't think I could make it...
+  - And don't you go trying yourself! It's far too dangerous for a young cone such
+    as yourself.
+  - Just wait here with me until we can reunite you with your parents.
+  responses: []
+  nextPrompts: []

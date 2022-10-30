@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Gene 2-2
+  m_EditorClassIdentifier: 
+  characterName: Gene
+  actionID: 0
+  cameraPos: {x: -0.0181, y: 0.0256, z: 0.0346}
+  cameraRot: {x: 4.1607714, y: 254.43819, z: 358.32324}
+  soundToPlay: {fileID: 11400000, guid: 63449bf379e7e444c82ed7e22772bacb, type: 2}
+  prompts:
+  - How are things back home?
+  responses:
+  - Things are good.
+  - It's abandoned.
+  nextPrompts:
+  - {fileID: 11400000, guid: d9d308c3ef60219458c54de2e7ac7084, type: 2}
+  - {fileID: 11400000, guid: d35dfe0b0a3df9040b9bdb20c7673861, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Gene W
+  m_EditorClassIdentifier: 
+  characterName: ????
+  actionID: 0
+  cameraPos: {x: 3.512, y: 0.159, z: 1.921}
+  cameraRot: {x: 335.037, y: 242.93399, z: -0.0000018835032}
+  prompts:
+  - Seems you don't get out much.
+  - You're standin' at the base of Mount Menaechmus!
+  - There's a small town down yonder.
+  - Mayhaps you could find ya a mechanic.
+  responses:
+  - Who are you?
+  - The Split?
+  - Thank you
+  nextPrompts:
+  - {fileID: 11400000, guid: fadf30ecda3ab094ea627ed28cc066d2, type: 2}
+  - {fileID: 11400000, guid: 09894eb815b0785429c7ceaa5b8dbda9, type: 2}
+  - {fileID: 11400000, guid: fc24dc57227b92e4d8905b5e88d72270, type: 2}

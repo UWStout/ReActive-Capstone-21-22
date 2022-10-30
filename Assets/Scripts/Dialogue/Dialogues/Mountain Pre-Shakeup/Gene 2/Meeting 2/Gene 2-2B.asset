@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Gene 2-2B
+  m_EditorClassIdentifier: 
+  characterName: Gene
+  actionID: 0
+  cameraPos: {x: -0.0181, y: 0.0256, z: 0.0346}
+  cameraRot: {x: 4.1607714, y: 254.43819, z: 358.32324}
+  soundToPlay: {fileID: 11400000, guid: 63449bf379e7e444c82ed7e22772bacb, type: 2}
+  prompts:
+  - ...
+  - I knew it.
+  - After being here so long, it had dawned on me that I may have just outlived my
+    own masters.
+  - How poetic!
+  - Still, you better get that ship up and running. I'd hate to see you cooped up
+    here longer than you need to. After awhile the cones'll drive you crazy.
+  - If you couldn't tell. Ha!
+  responses: []
+  nextPrompts:
+  - {fileID: 11400000, guid: 859f42e6d79570048b0ba19eabd4c4a0, type: 2}

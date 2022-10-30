@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Grappleshot
+  m_EditorClassIdentifier: 
+  characterName: Gene
+  actionID: 0
+  cameraPos: {x: -0.184, y: 0.164, z: 0.161}
+  cameraRot: {x: 11.224003, y: 130.72801, z: 0}
+  soundToPlay: {fileID: 11400000, guid: 63449bf379e7e444c82ed7e22772bacb, type: 2}
+  prompts:
+  - Anyhow, it seems you found my old Positron Grapple Shot 8000!
+  - I really wanted the 9000 version, but my manager didn't like the thought of a
+    younger me having a tool with a self-destruct feature.
+  - I don't really have a use for it anymore, so finders keepers I guess.
+  responses: []
+  nextPrompts:
+  - {fileID: 11400000, guid: 8368c4866bb2f0d4382b52c39dd79a32, type: 2}

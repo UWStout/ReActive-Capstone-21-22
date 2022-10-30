@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: ESV
+  m_EditorClassIdentifier: 
+  characterName: Elder
+  actionID: 0
+  cameraPos: {x: -0.0089, y: 0.6854, z: 0.411}
+  cameraRot: {x: 13.999993, y: 170.33502, z: -0.00000010998884}
+  soundToPlay: {fileID: 11400000, guid: 36a2f67ed47f3b54c987feed5b77a3e4, type: 2}
+  prompts:
+  - Hmm, let's see. Many winters ago, before our people, a great cone wandered the
+    sky.
+  - it was magnificent and mighty, bigger than they eye can see and more blue than
+    the coldest ice.
+  - It wanderd and wandered and wandered, and when there was nowhere left to wander
+    it wandered some more.
+  - 'The cone had seen everything, been everyhwere, but still had no one to share
+    its beauty with. '
+  - And so the cone felt sorrowful. But it was also a clever cone, so then it thought.
+    And thought and thought and thought, until it had an idea.
+  - The cone, having seen all there was to find in the universe, found the sharpest
+    rock and threw itself upon it. It shattered into a thousand brilliant pieces.
+  - Alas, the great cone was no more.
+  - In its place were many little cones, who rejoyced in their newfound life and
+    would one day live together in harmony.
+  - And so, the great cone was never lonely again.
+  responses: []
+  nextPrompts:
+  - {fileID: 11400000, guid: 4805e6787f24d5e42bd920531e3305f6, type: 2}

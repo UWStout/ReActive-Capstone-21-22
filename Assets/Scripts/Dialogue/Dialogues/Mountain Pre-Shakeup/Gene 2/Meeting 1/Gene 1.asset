@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Gene 1
+  m_EditorClassIdentifier: 
+  characterName: ????
+  actionID: 0
+  cameraPos: {x: 0.0184, y: 0.0318, z: 0.0005}
+  cameraRot: {x: 0.5792643, y: 305.12244, z: 1.4334401}
+  soundToPlay: {fileID: 11400000, guid: 63449bf379e7e444c82ed7e22772bacb, type: 2}
+  prompts:
+  - Well would you look at that.
+  - All these years and this is the best they could come up with? You redo the same
+    old design forever and what's left of it?
+  - All hard edges and no personality.
+  responses:
+  - Hello?
+  nextPrompts:
+  - {fileID: 11400000, guid: 10cd63ac9db6aa24cb34285130dbe1fa, type: 2}

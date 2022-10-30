@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089486bf9685af44a066fe516e7616f, type: 3}
+  m_Name: Admin1
+  m_EditorClassIdentifier: 
+  characterName: Admin
+  actionID: 0
+  cameraPos: {x: -0.1559, y: 0, z: -0.15079996}
+  cameraRot: {x: 0, y: 358.44254, z: 0}
+  soundToPlay: {fileID: 11400000, guid: 7a8b3aba5ccda0b4db726920635075ca, type: 2}
+  prompts:
+  - "Rise and shine, everyone! It\u2019s a beautiful day to serve the citizens of
+    <color=\"red\">[REDACTED]</color>."
+  - "You are all required to check in with me throughout the calibration course to
+    make sure you\u2019re all in working order."
+  - Please do not attempt to leave the course by any other means.
+  - "Head to your left for processing, where we\u2019ll see if you\u2019re running
+    at <color=\"red\">[REDACTED]</color> standards. Best of luck!"
+  responses: []
+  nextPrompts: []

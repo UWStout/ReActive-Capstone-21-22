@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9864e12058708ba4f9d38c3c2fb0e517, type: 3}
+  m_Name: MainStats
+  m_EditorClassIdentifier: 
+  walkSpeedAcceleration: 75
+  walkSpeedCap: 5
+  airMoveMultiplier: 0.5
+  lateralDrag: 5
+  jumpMultiplierGround: 40
+  jumpMultiplierAir: 30
+  maxJumps: 2
+  gravity: -60
+  dashForce: 75
+  dashStateDuration: 1
+  dashGravityDuration: 0.25
+  groundedRayDistance: 1.2
+  groundedBuffer: 0.3

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d228f63c7164504396e109eee105ba6, type: 3}
+  m_Name: VillagerSpeak
+  m_EditorClassIdentifier: 
+  volume: 30
+  loops: 0
+  sounds:
+  - {fileID: 8300000, guid: 5c2fcace056d43b41b70f3951940f48e, type: 3}
+  - {fileID: 8300000, guid: a5af61205a37ed34c9a43707d0fb682d, type: 3}
+  - {fileID: 8300000, guid: 055859b67cd19634ca07dc590df3c175, type: 3}
+  - {fileID: 8300000, guid: d4bd1d3c46231214880349a915399809, type: 3}
+  - {fileID: 8300000, guid: 890b8e96494fddc47af289f0bda72820, type: 3}
+  mixerGroup: {fileID: 0}
